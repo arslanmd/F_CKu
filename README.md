@@ -5,6 +5,8 @@ A slightly optimizing brainf*ck interpreter in approx. 500 lines of x86-64 assem
 ```sh
 $ gcc bf.s -o bf -no-pie 
 ```
+If the command above doesn't work, try it without the ``no-pie`` flag.
+
 ## Running
 ```sh
 $ ./bf path_to_bf_program
