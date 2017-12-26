@@ -489,15 +489,6 @@ eloop1:
 	movq	(prgm_aryptr), %rax # get base of program array
 	movzbq	(%rax, %rcx, 1), %rax # deref and ld back
 	movq	%rax, -24(%rbp) # op = rax
-##	dbg
-#	movq	-8(%rbp), %rbx												# %rbx = tapeptr
-#	movzwq	(%rbx), %rdx												# arg3 VALUE *%rbx
-#	movq	%rax,%rsi												# arg2 OPCODE
-#	movq	$dbform, %rdi												# arg1 format string
-#	movq	$0, %rax												# no vargs
-#	call	printf														
-#	movq	-24(%rbp), %rax												# restore
-##	dbg
 	shlq	$3, %rax # op * 8
 	movq	ecjt(%rax), %rax # &ecjt + %rax
 	jmp		*%rax # deref and jump to addr
