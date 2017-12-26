@@ -1,5 +1,5 @@
 # F_CKμ
-A slightly optimizing brainf*ck interpreter in approx. 500 lines of x86-64 assembly (AT&amp;T/GAS). Tested on Arch and Debian 9. Obviously not portable.
+A slightly optimizing brainf*ck interpreter in approx. 500 lines of x86-64 assembly (AT&amp;T/GAS). Tested on Arch and Debian 9 & Windows LXSS Ubuntu. Obviously not portable.
 
 ## Compiling
 ```sh
