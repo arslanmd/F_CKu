@@ -1,5 +1,5 @@
 ###################################################################################################################
-#  (C) 2016-2017 Dorukhan Arslan. Released under the GPL.
+#  (C) 2017 Dorukhan Arslan. Released under the GPL.
 # 
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
